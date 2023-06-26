@@ -1,0 +1,14 @@
+body{
+    background-color: #343334;
+}
+h2{
+    text-align: center; /*все заголовки стали по центру*/
+    font-weight: 200;
+    font-size: 30px;
+}
+.text{
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+

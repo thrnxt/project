@@ -1,0 +1,267 @@
+
+@media  (max-width: 1200px)
+    .menu
+        .menu_item
+            padding-right: 20px
+        .menu_link
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 50px
+    .advantages
+        .text-for-advantages
+            font-size: 14px
+            min-height: 170px
+            .text-blue
+                font-size: 18px
+        .descr-for-advantages
+            margin-top: 60px
+    .footer_wrapper>div
+        width: 37%
+
+    .soska
+        .footer_links
+            width: 350px
+        img
+            width: 230px
+    .mobile
+        &_item
+            width: 290px
+            height: 260px
+
+@media  (max-width: 991px)
+    .menu
+        margin: 5px
+        .menu_item
+            line-height: 14px
+            padding-right: 8px
+        .menu_link
+            font-size: 10px
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_official
+            font-size: 11px
+        &_phone
+            font-size: 19px
+        &_btn
+            width: 100%
+            height: 40px
+            margin-top: 21px
+            
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+    .mobile
+        .container
+            margin-top: -25px
+        .mobile_item
+            width: 225px
+            height: 245px
+            &_subtitle
+                font-size: 16px
+                line-height: 24px
+    .advantages
+        .descr-for-advantages
+            min-width: 300px
+            flex-direction: column //ЗАПОМНИТЬ! выравнивает флексы по вертикале
+            align-items: center
+        .text-for-advantages
+            margin-top: 20px
+    .cities
+        padding: 49px 0 49px 0
+        .description-select
+            font-size: 28px
+    .soska 
+        img
+            width: 200px
+    .footer_wrapper>div
+        width: 50%
+@media  (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px 
+        background-color: rgba(0, 0, 0, 0.96 )
+        transition: 0.6s
+        margin: 0
+        &_active
+            left: 0
+        .menu_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        .menu_link
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 25px
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 3px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -1px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)        
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .promo
+        &_header
+            font-size: 36px
+        &_subheader
+            font-size: 28px
+    .description-select
+            font-size: 27px
+    .subheader
+        &_call
+            display: none
+        &_phone
+            margin-top: 20px
+            font-size: 18px
+        &_btn
+            display: none
+            &_sm
+                display: block
+                width: 200px
+                margin-left: 26px
+                height: 33px
+                margin-top: 12px
+    .car
+        .subcontainer_1
+            .for-uber-car
+                .uberx
+                    max-width: 100%
+                img
+                    max-width: 100%
+        .subcontainer_2
+            height: 100px
+            .text-for-sub2
+                padding-top: 120px       
+    .cities
+        padding: 49px 0 49px 0
+        .description-select
+            font-size: 28px
+    .footer_wrapper
+        flex-direction: column
+        .footer_social
+           margin: 0 auto
+        .footer_links
+            margin-top: 20px
+        .store
+            margin: 0 auto   
+            margin-top: 20px 
+    .footer_wrapper > div
+        width: 100%
+@media (max-width: 575px)
+    .subheader
+        height: 60px
+        &_official
+            display: none
+        &_logo
+            margin-top: 17px
+        &_phone
+            margin-top: 10px
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+        &_call
+            display: none
+        &_btn
+            width: 110px
+            height: 22px
+            font-size: 10px
+            margin-top: -5px
+            &_sm
+                margin: 0 auto
+                margin-top: 10px
+    .promo
+        min-height: 400px 
+        padding: 93px 0 35px 0
+        &_descr
+            display: none
+        &_header
+            font-size: 30px
+            padding: 0 24px
+            line-height: 35px
+        &_subheader
+            font-size: 20px
+            margin-top: 33px
+            padding: 0 10px
+            line-height: 35px
+        &_btn
+            margin-top: 72px
+            width: 210px
+            height: 50px
+            
+    .description-select
+        font-size: 18px
+    .advantages
+        .description-select
+           font-size: 21px 
+        .descr-for-advantages
+            min-width: 0px
+            margin-left: -10px
+            .text-blue
+                font-size: 17px
+            .text-for-advantages 
+                max-width: 210px
+                font-size: 12px
+                .text-blue
+                    font-size: 14px
+        img
+            width: 100px
+            height: 100px
+    .menu
+        width: 86%
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px
+        &_link
+            display: block
+    .mobile
+        margin-top: -20px
+    .car
+        .subcontainer_1
+            .for-uber-car
+                .uberx 
+                    border-radius: 0px
+                img
+    footer
+        padding: 14px 0 23px 0
+    .cities
+        a
+            font-size: 12px
+    .soska
+        .footer_links      
+          width: 310px
+          &_main
+            a
+                font-size: 14px 
+          &_sub
+            a
+                font-size: 10px
+
+    .cities
+        height: 500px

@@ -1,0 +1,11 @@
+.box{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.say{
+    text-align: center;
+    padding-bottom: 200px;
+}
